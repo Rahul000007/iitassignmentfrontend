@@ -1,24 +1,29 @@
 # iitassignmentfrontend
 
-## Project setup
-```
-npm install
-```
+This is the frontend application for the Course Management System. The application is built using Vue.js.
 
-### Compiles and hot-reloads for development
+## Prerequisites
+
+1. **Node.js and npm:**
+
+## Project Setup
+
+1. **Install Dependencies:**
+```
+   npm install
+```
+2. **Compiles and Hot-Reloads for Development:**
 ```
 npm run serve
 ```
+## Running the Application with Docker
+1. Build the Docker Image:
+```
+docker build -t 7rahul/iitassignment-frontend:latest .
+```
+2. Run the Docker Container:
+```
+docker run -d -p 8081:8081 7rahul/iitassignment-frontend:latest
+```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
